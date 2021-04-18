@@ -1,0 +1,22 @@
+{
+  "name": "yandernaya-voda",
+  "version": "1.0.0",
+  "description": "批小将一群司马东西",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ICEYSELF/YadernayaVodaTvoyaMamaBlyat.git"
+  },
+  "author": "Chuigda",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ICEYSELF/YadernayaVodaTvoyaMamaBlyat/issues"
+  },
+  "homepage": "https://github.com/ICEYSELF/YadernayaVodaTvoyaMamaBlyat#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

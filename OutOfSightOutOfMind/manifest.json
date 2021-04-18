@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "out-of-sight-out-of-mind",
+	"version": "0.1.0",
+	"description": "移除批站评论区pxj的脑残评论",
+	"permissions": [
+		"activeTab",
+		"webRequest",
+		"webRequestBlocking",
+		"*://*.bilibili.com/*"
+	],
+	"content_scripts": [
+		{
+			"matches": ["*://*.bilibili.com/*"],
+			"js": ["oosoom.js"]
+		}
+	],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "oos-oom@icey.tech"
+		}
+	}
+}
